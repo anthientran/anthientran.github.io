@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "An Thien Tran"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+##      - about.qmd
+##        text: About
+##      - research.qmd
+##        text: Research
+##      - project.qmd
+##        text: Project
+  
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
