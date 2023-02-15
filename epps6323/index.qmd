@@ -1,0 +1,12 @@
+---
+title: "An Thien Tran"
+image: profile.jpg
+about:
+  template: jolla
+  links: 
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+---
+
+### Welcome to Knowledge Mining
