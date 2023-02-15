@@ -1,0 +1,14 @@
+---
+title: "An Thien Tran"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+An Thien Tran is a graduate student in Economics. You can find his data blog and projects here.
+
+## Blog
+
+#### *Sep 13 2022*
