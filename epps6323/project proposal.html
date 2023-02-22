@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dona Lontok, An Tran, Meghana Koduru">
+<meta name="dcterms.date" content="2023-02-22">
 
-<title>An Thien Tran - About An Thien Tran</title>
+<title>An Thien Tran - How the Sun might affect news headlines</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -62,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -98,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">
+    <a class="nav-link" href="./about.html">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -119,39 +122,89 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#topic-introduction" id="toc-topic-introduction" class="nav-link active" data-scroll-target="#topic-introduction">Topic Introduction</a></li>
+  <li><a href="#data-and-methodology" id="toc-data-and-methodology" class="nav-link" data-scroll-target="#data-and-methodology">Data and Methodology</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="profile.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About An Thien Tran</h1>
+<h1 class="title">How the Sun might affect news headlines</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dona Lontok, An Tran, Meghana Koduru </p>
+          </div>
   </div>
-</header><main class="content" id="quarto-document-content">
-<section id="more-about-me" class="level3">
-<h3 data-anchor-id="more-about-me">More about me</h3>
-<p>An Thien Tran is a Graduate student in Economics. Aside from interests in his area of study, he also has interest in photography. His work has been published and exhibited and you can view his photography work <a href="http://anthientran.space" title="An Thien Tran's Photowork">here</a></p>
-<p>Please feel free to contact me if you would like to share ideas, collaborate, or just to hang out!</p>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 22, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="topic-introduction" class="level2">
+<h2 class="anchored" data-anchor-id="topic-introduction">Topic Introduction</h2>
 <ul>
-<li><p>E-mail: <a href="mailto:ant.t.tran1996@gmail.com">an.t.tran1996@gmail.com</a></p></li>
-<li><p>Cell phone: (214) 808-2477</p></li>
+<li><p>Given that the Sun influences almost every aspect of our lives, we are exploring whether there is correlation between sun exposure, or lack thereof, and events in local news</p></li>
+<li><p>A large-scale research (Baylis et al., 2018) was conducted that investigated the relationship between meteorological conditions and the sentiments of human expressions</p></li>
+<li><p>We will measure the actual events that occurred, as opposed to sentiments posted on social media<br>
+</p></li>
+<li><p>Working hypothesis: There will be more favorable events when there are clear skies = more sun exposure</p></li>
+</ul>
+</section>
+<section id="data-and-methodology" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-methodology">Data and Methodology</h2>
+<ul>
+<li><p>Primarily, data will come from GDELT and NOAA</p>
+<ul>
+<li><p>GDELT monitors news broadcast, print, and web media in over 100 languages&nbsp;</p></li>
+<li><p>National Oceanic and Atmospheric Administration, including data from National Weather Service and Space Weather Prediction Center</p></li>
+</ul></li>
+<li><p>Independent variables will include time of sun exposure, area of cloud coverage, precipitation rate, and potentially temperature</p></li>
+<li><p>Regression models will be used to test our hypothesis</p></li>
+<li><p>Visualized our findings using R packages</p></li>
+</ul>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<ul>
+<li><p>Sampling errors in how we selected the regions to conduct our study</p>
+<ul>
+<li>Regions who experience the same amount of sun exposure, yet have different magnitudes of either positive or negative events.&nbsp;</li>
+</ul></li>
+<li><p>Omitted variables that we are not accounting for or unaware of for our study</p>
+<ul>
+<li>Socio-political climate which may have an overwhelming effect on the region’s events.</li>
+</ul></li>
 </ul>
 
 
 </section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com" class="about-link">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -172,6 +225,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
